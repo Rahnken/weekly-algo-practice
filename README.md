@@ -1,15 +1,5 @@
 # weekly-algo-practice
 
-To install dependencies:
+A mini repo for the weekly algo practice from Devslopes
 
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.0.18. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+I'm going to include my solutions to the problems along with tests to verify that the solutions pass.
