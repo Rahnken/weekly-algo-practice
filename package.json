@@ -5,6 +5,17 @@
   "devDependencies": {
     "bun-types": "latest"
   },
+  "scripts": {
+    "caf": "bun run create_algorithm_files.ts",
+    "test:week1-easy-reverseString": "bun test week1/easy/reverseString.test.ts",
+    "test:week1-advanced-sumDigits": "bun test week1/advanced/sumDigits.test.ts",
+    "test:week2-easy-fizzBuzz": "bun test week2/easy/fizzBuzz.test.ts",
+    "test:week2-advanced-createDictionary": "bun test week2/advanced/createDictionary.test.ts",
+    "test:week3-easy-isPalindrome": "bun test week3/easy/isPalindrome.test.ts",
+    "test:week3-advanced-moveZeroes": "bun test week3/advanced/moveZeroes.test.ts",
+    "test:week4-easy-maxValue": "bun test week4/easy/maxValue.test.ts",
+    "test:week4-advanced-repeatingChars": "bun test week4/advanced/repeatingChars.test.ts"
+  },
   "peerDependencies": {
     "typescript": "^5.0.0"
   }

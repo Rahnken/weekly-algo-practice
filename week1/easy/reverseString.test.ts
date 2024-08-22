@@ -1,4 +1,9 @@
-import { reverseString, reverseInBuilts } from "./week-1";
+/**
+ * Prompt: Write a function that takes a string as input and returns the string reversed.
+ Extension: Write a version of this function without built-in methods.
+ */
+
+import { reverseString, reverseInBuilts } from "./reverseString";
 import { describe, expect, test } from "bun:test";
 
 describe("ReverseString Function", () => {

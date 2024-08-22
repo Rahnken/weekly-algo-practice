@@ -1,0 +1,50 @@
+[
+  {
+    "week": 1,
+    "difficulty": "easy",
+    "name": "reverseString",
+    "description": "Prompt: Write a function that takes a string as input and returns the string reversed.\n Extension: Write a version of this function without built-in methods."
+  },
+  {
+    "week": 1,
+    "difficulty": "advanced",
+    "name": "sumDigits",
+    "description": "Create a function that takes an integer and returns the sum of its digits without converting the number to a string. Make sure you handle negatives!"
+  },
+  {
+    "week": 2,
+    "difficulty": "easy",
+    "name": "fizzBuzz",
+    "description": "Prompt: Write a function that prints numbers from 1 to 100. For multiples of three, print \"Fizz\" instead of the number, and for multiples of five, print \"Buzz\". For numbers which are multiples of both three and five, print \"FizzBuzz\". \n Extension: Modify the function to take two additional parameters fizzNumber and buzzNumber to generalize the FizzBuzz logic to any two numbers."
+  },
+  {
+    "week": 2,
+    "difficulty": "advanced",
+    "name": "createDictionary",
+    "description": "Implement a function that takes a string and returns an object with the counts of vowels and consonants."
+  },
+  {
+    "week": 3,
+    "difficulty": "easy",
+    "name": "isPalindrome",
+    "description": "Prompt: Write a function that checks if a given string is a palindrome (reads the same forwards and backwards). Ensure the function ignores spaces, punctuation, and case differences when checking for a palindrome. \nExtension: Write a recursive version of this function."
+  },
+  {
+    "week": 3,
+    "difficulty": "advanced",
+    "name": "moveZeroes",
+    "description": "Write a function that takes an array of numbers and moves all zeros to the end of the array while maintaining the order of the non-zero elements."
+  },
+  {
+    "week": 4,
+    "difficulty": "easy",
+    "name": "maxValue",
+    "description": "Prompt: Write a function that takes an array of numbers as input and returns the maximum value.\n Extension: Modify the function to return the index of the maximum value in the list."
+  },
+  {
+    "week": 4,
+    "difficulty": "advanced",
+    "name": "repeatingChars",
+    "description": "Implement a function that returns the first non-repeating character in a string. If all characters are repeating, return null."
+  }
+]
