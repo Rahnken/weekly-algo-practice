@@ -22,13 +22,13 @@ describe("SumDigits edge cases", () => {
   test("Input:24 should return 6", () => {
     expect(sumDigits(24)).toBe(6);
   });
-  test("Input:204 should return 6", () => {
+  test("Handle 0 as a digit properly", () => {
     expect(sumDigits(204)).toBe(6);
   });
-  test("Input:242 should return 8", () => {
+  test("Multiple digits added correctly", () => {
     expect(sumDigits(242)).toBe(8);
   });
-  test("Input: -242 should be 6", () => {
+  test("Negative inputs are handled correctly", () => {
     expect(sumDigits(-242)).toBe(8);
   });
 });
