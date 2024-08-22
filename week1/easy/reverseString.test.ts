@@ -9,7 +9,7 @@ import { describe, expect, test } from "bun:test";
 describe("ReverseString Function", () => {
   describe("ReverseString Function Existance ", () => {
     test("ReverseString Function to exist", () => {
-      expect(reverseString).toBeInstanceOf(Function);
+      expect(reverseString).toBeFunction();
     });
     test("ReverseString Function returns a value ", () => {
       expect(reverseString("something")).toBeDefined();
